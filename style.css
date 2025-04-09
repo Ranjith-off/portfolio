@@ -1051,6 +1051,9 @@ form .btn {
         margin: 5px 0;
 
     }
+    form .btn{
+        margin-bottom: 60px;
+    }
 }
 
 
