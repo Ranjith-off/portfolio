@@ -10,6 +10,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "Poppins", serif;
+
 }
 
 :root {
@@ -776,7 +777,10 @@ form .btn {
 }
 
 @media only screen and (max-width: 1024px){
-
+    
+    .home{
+        height: fit-content;
+    }
     .home-content h3{
         font-size: 25px;
         font-weight: 500;
@@ -794,6 +798,11 @@ form .btn {
         margin-top: 0;
         width: 250px;
         height: 250px;
+    }
+
+    .education {
+        padding-top: 100px;
+        height: fit-content;
     }
 
     .education h1 {
@@ -850,7 +859,10 @@ form .btn {
 }
 
 @media only screen and (max-width: 768px){
-
+    
+    body{
+        overflow: hidden;
+    }
     .nav-toggle {
 
         font-size: 25px;
@@ -1086,6 +1098,7 @@ form .btn {
 
     }
     
+    
     .home-content{
         padding-top: 40px;
     }
@@ -1218,7 +1231,8 @@ form .btn {
 }
 
 @media only screen and (max-width: 375px){
-
+    
+    
     .home{
         height: fit-content;
     }
