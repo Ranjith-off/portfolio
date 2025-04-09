@@ -695,11 +695,12 @@ form .btn {
 
 }
 
+
 .copyrights {
 
     margin-top: 30px;
     width: 100%;
-    height:40px;
+    height:20px;
     background-color: #7c7b7bd8;
 
 }
@@ -707,7 +708,7 @@ form .btn {
 
     font-size: 7px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
     letter-spacing: 1px;
 }
 /* keyframes animation */
@@ -1229,6 +1230,34 @@ form .btn {
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 399px){
+    
+    .education {
+        padding-top: 50px;
+    }
+    .vert-line-1 {
+        height: 125px;
+    }
+    
+    .vert-line-2 {
+        margin-top: 25px;
+    }
+    .vert-line-3 {
+        margin-top: 25px;
+    }
+
+    .scl-X {
+        padding-top: 25px;
+    }
+
+    .skills-slide {
+        padding-top: 50px;
+    }
+    
+
+}
+
 
 @media only screen and (max-width: 375px){
     
