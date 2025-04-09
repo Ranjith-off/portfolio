@@ -511,7 +511,7 @@ body {
 .contact {
  
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     padding-top: 80px;  
 
 }
@@ -698,7 +698,7 @@ form .btn {
 
 .copyrights {
 
-    margin-top: 30px;
+   margin-top: 30px;
     width: 100%;
     height:20px;
     background-color: #7c7b7bd8;
@@ -744,12 +744,12 @@ form .btn {
 
 
 
- 
-
-
 
 @media only screen and (max-width: 1140px){
-
+    
+    body{
+        overflow: hidden;
+    }
     .home-content h3{
         font-size: 30px;
         font-weight: 500;
@@ -1312,7 +1312,7 @@ form .btn {
 
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 340px){
     .home-content h3{
         font-size: 18px;
     }
